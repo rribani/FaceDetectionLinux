@@ -1,0 +1,2 @@
+#!/bin/bash
+g++ FaceDetection.cpp -o FaceDetection `pkg-config opencv --cflags --libs` -g
